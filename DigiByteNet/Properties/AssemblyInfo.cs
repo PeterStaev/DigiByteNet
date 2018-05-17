@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("DigiByteNet")]
 [assembly: AssemblyDescription("DigiByte Core Library for .NET")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Tangra Inc.")]
+[assembly: AssemblyCompany("Tangra Inc..")]
 [assembly: AssemblyProduct("DigiByteNet")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
