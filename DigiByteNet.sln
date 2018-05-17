@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiByteNet", "DigiByteNet\DigiByteNet.csproj", "{5C0C350A-00E6-4494-B725-50F51827B441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigiByteNet.Tests", "DigiByteNet.Tests\DigiByteNet.Tests.csproj", "{540064FA-2C1B-47AC-87CA-ED312A274407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C0C350A-00E6-4494-B725-50F51827B441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0C350A-00E6-4494-B725-50F51827B441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0C350A-00E6-4494-B725-50F51827B441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0C350A-00E6-4494-B725-50F51827B441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{540064FA-2C1B-47AC-87CA-ED312A274407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{540064FA-2C1B-47AC-87CA-ED312A274407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{540064FA-2C1B-47AC-87CA-ED312A274407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{540064FA-2C1B-47AC-87CA-ED312A274407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1BAED23-DE32-4ECD-B5E2-D600F6A4E94C}
+	EndGlobalSection
+EndGlobal
