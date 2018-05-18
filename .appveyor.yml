@@ -29,11 +29,14 @@ assembly_info:
 platform: Any CPU
 configuration: Release
 
+before_build:
+  - nuget restore
+
 build:
-  parallel: true                  # enable MSBuild parallel builds
-  project: DigiByteNet.sln      # path to Visual Studio solution or project
-  #publish_nuget: true             # package projects with .nuspec files and push to artifacts
-  include_nuget_references: true  # add -IncludeReferencedProjects option while packaging NuGet artifacts
+  parallel: true
+  project: DigiByteNet.sln
+  #publish_nuget: true
+  include_nuget_references: true
 
   # MSBuild verbosity level
   verbosity: normal
